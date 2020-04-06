@@ -1,3 +1,5 @@
+require 'pry'
+
 def find_max_value(array)
   counter = 0
   max_value = -1
@@ -9,6 +11,7 @@ def find_max_value(array)
      count += 1
    end
    max_value
+   binding.pry
  end
  
  
